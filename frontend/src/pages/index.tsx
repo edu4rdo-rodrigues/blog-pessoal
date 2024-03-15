@@ -1,3 +1,4 @@
+// /home/rpz/code/blog-pessoal/frontend/src/pages/index.tsx
 import Image from "next/image";
 import { Inter } from "next/font/google";
 
