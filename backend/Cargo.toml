@@ -8,4 +8,5 @@ edition = "2021"
 [dependencies]
 rocket = "0.5.0"
 rocket_contrib = "0.4.11"
+rocket_cors = "0.6.0"  # Adicione esta linha se ainda não estiver presente
 diesel = { version = "1.4.7", features = ["sqlite"] }
