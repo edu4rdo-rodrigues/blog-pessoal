@@ -1,0 +1,292 @@
+/* /home/rpz/code/blog-pessoal/frontend/src/styles/registerPage/registerPageDesktop.module.css */
+/* /home/rpz/code/blog-pessoal/frontend/src/styles/loginPageDesktop.module.css */
+
+
+.backgroundRed {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #DD424C;
+  width: 100vw;
+  height: 2000px;
+  box-sizing: border-box;
+}
+.backgroundBlack {
+  box-shadow: 4px 10px 40px 0px rgba(0, 0, 0, 0.25);
+  background: #171717;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 311px 0 450px 0;
+  width: 55vw;
+  height: fit-content;
+  top: 30px;
+  box-sizing: border-box;
+}
+.logo {
+  margin: 0 50px 12.2px 0;
+  width: 450px;
+  height: 200px;
+
+}
+.aboutUs {
+  overflow-wrap: break-word;
+  font-family: 'Code 7x5', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 5.3px;
+  line-height: 2;
+  color: #B0B0B0;
+
+  width: 540px;
+  margin-left: 70px;
+}
+
+.redLogo {
+  position: absolute;
+  left: 1px;
+  top: 0px;
+  background-size: cover; /* ou outro valor de sua preferência */
+}
+.redLogo_2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-size: cover; /* ou outro valor de sua preferência */
+}
+.containerForm {
+  position: absolute;
+  top: 55%;
+  right: 320px;
+  translate: 0 -50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 19px;
+  width: 650px;
+  height: 650px;
+
+  box-sizing: border-box;
+}
+.formLogin {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background: #EAEAEA;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 0 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.formLoginHeader {
+  margin: 40px auto 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+
+  box-sizing: border-box;
+}
+.formLoginHeaderTitle_1 {
+  margin: 0 2.1px 17px 2.1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Code 7x5', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: #353535;
+
+}
+.formLoginHeaderTitle_2 {
+  overflow-wrap: break-word;
+  font-family: 'Lato';
+  font-weight: 500;
+  font-size: 15px;
+  color: #8C8C8C;
+}
+
+
+.formLoginInputs {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px; /* Espaçamento vertical acima */
+  padding-bottom: 40px; /* Espaçamento vertical abaixo */
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Espaçamento vertical entre os elementos filhos */
+  box-sizing: border-box;
+
+}
+.userNameOrEmail {
+  border-radius: 60px;
+  background: #FFFFFF;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 22px 40px 25px 40px;
+  height: 70px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.userNameOrEmail::placeholder {
+  overflow-wrap: break-word;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(198, 198, 198, 0.5);
+}
+.userName {
+  border-radius: 60px;
+  background: #FFFFFF;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 22px 40px 25px 40px;
+  height: 70px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.userName::placeholder {
+  overflow-wrap: break-word;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(198, 198, 198, 0.5);
+}
+.email {
+  border-radius: 60px;
+  background: #FFFFFF;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 22px 40px 25px 40px;
+  height: 70px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.email::placeholder {
+  overflow-wrap: break-word;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(198, 198, 198, 0.5);
+}
+.password {
+  border-radius: 60px;
+  background: #FFFFFF;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 22px 40px 25px 40px;
+  height: 70px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.password::placeholder {
+  overflow-wrap: break-word;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(198, 198, 198, 0.5);
+}
+
+
+
+
+.formContainerFlexHorizontalItensSecondaryActions {
+  margin: 0 1px 34px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 450px;
+  box-sizing: border-box;
+}
+.formContainerFlexHorizontalItensCheckboxRememberMe {
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.checkboxRememberMe {
+  border-radius: 2px;
+  background: #FFFFFF;
+  margin: 3px 17px 0 0;
+  width: 20px;
+  height: 20px;
+}
+.descriptionRememberMe {
+  margin-bottom: 5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 15px;
+  color: #353535;
+  text-decoration: none;
+}
+.forgotPassword {
+  margin: 3px 0 2px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 15px;
+  color: #DD424C;
+  text-decoration: none;
+}
+
+
+.formButtonLogin {
+  border-radius: 60px;
+  background: #171717;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 17px 2.2px 19px 0;
+  margin-bottom: 30px;
+  width: 447.8px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.dontHaveAnAccountSignup {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.333;
+  color: #353535;
+  text-decoration: none;
+}
+.dontHaveAnAccountSignupSub3 {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.333;
+  margin-left: 5px;
+  color: #DD424C;
+}
+
+
+
+

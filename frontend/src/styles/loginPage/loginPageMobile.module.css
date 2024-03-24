@@ -1,3 +1,4 @@
+/* /home/rpz/code/blog-pessoal/frontend/src/styles/loginPage/loginPageMobile.module.css */
 /* /home/rpz/code/blog-pessoal/frontend/src/styles/loginPageMobile.module.css */
 
 
@@ -28,7 +29,6 @@
     padding: 0;
     width: 135px;
     height: 50px;
-    background: url('../../public/RightContent.png');
   }
   
   .aboutUs {
@@ -136,7 +136,7 @@
   
   }
 
-  .userName {
+  .userNameOrEmail {
     border-radius: 60px;
     background: #FFFFFF;
     position: relative;
@@ -148,7 +148,7 @@
     border: none;
     outline: none;
   }
-  .userName::placeholder {
+  .userNameOrEmail::placeholder {
     overflow-wrap: break-word;
     font-family: 'Lato';
     font-weight: 400;

@@ -11,7 +11,7 @@ const LoginForm = () => {
 
     const responsiveStyles = responsiveStyleOfLoginPage;
     const [formData, setFormData] = useState({
-      username: '',
+      usernameOrEmail: '',
       password: ''
     });
   
@@ -59,7 +59,7 @@ const LoginForm = () => {
             </span>
         </div>
         <div className={responsiveStyles.formLoginInputs}>
-            <input type='text' className={responsiveStyles.userName} name="username" placeholder='User name or Email' onChange={handleChange} value={formData.username} />
+            <input type='text' className={responsiveStyles.userNameOrEmail} name="username" placeholder='User name or Email' onChange={handleChange} value={formData.usernameOrEmail} />
             <input type='password' className={responsiveStyles.password} name="password" placeholder='Password' onChange={handleChange} value={formData.password} />
         </div>
         
